@@ -51,6 +51,12 @@ EDA involves exploring the data to answer the key questions such as,
 - Identify key insights to drive marketing strategies for converting casual riders.
 - Provide actionable recommendations for improving ridership and revenue.
 
+### Project Structure
+- data/: Contains a sample cleaned dataset for demonstration purposes and **data_dictionary.md** file explains the structure and meaning of the dataset’s columns.
+- visuals/: Includes charts created using Excel.
+- README.md: Provides project overview and instructions.
+- LICENSE: Contains licensing terms.
+
 ### Key Insights:
 The analysis key insights are summarised as follows : 
 1. Bike Type Usage:
@@ -90,3 +96,5 @@ Base on the analysis, the following actions are recommended :
 
 ### License:
 This project is licensed under the MIT License.
+
+
