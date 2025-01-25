@@ -67,13 +67,24 @@ EDA involves exploring the data to answer the key questions such as,
 ### Key Insights:
 The analysis key insights are summarised as follows : 
 1. Bike Type Usage:
+      
     - Casual riders prefer classic and electric bikes.
     - Members have balanced usage across all bike types.
-2. Ride Duration:
+      
+      ![Bike Type Usage](visuals/bike_type_usage.png)
+      
+3. Ride Duration:
     - Casual riders take longer rides, especially on weekends.
     - Members tend to use bikes for shorter, consistent weekday rides.
-3. Monthly Trends:
+
+      ![Average Ride Duration](visuals/weekly_avg_ride.png)
+      
+4. Monthly Trends:
     - Summer months show peak usage for both casual riders and members.
+      
+      ![Monthly Trends](visuals/monthly_ride.png)
+
+For more charts, visit the [`visuals/`](visuals/) folder.
 
 ### Recommendations:
 Base on the analysis, the following actions are recommended : 
@@ -97,9 +108,9 @@ Base on the analysis, the following actions are recommended :
 
 
 ### How to Use
-- Data Cleaning: Open cleaned_data.xlsx to view the prepared dataset, processed using Power Query.
-- Analysis: Explore pivot tables and charts in pivot_table_analysis.xlsx to review key insights.
-- Visualizations: View .png files in the visuals/ directory for each chart.
+- Data Cleaning: Download Full Dataset from Google Drive to view the prepared dataset, processed using Power Query. 
+- Analysis: Explore pivot tables and charts in downloaded `analysed_data.xlsx` to review key insights.
+- Visualizations: View `.png` files in the `visuals/` directory for each chart.
 
 ### License:
 This project is licensed under the MIT License.
