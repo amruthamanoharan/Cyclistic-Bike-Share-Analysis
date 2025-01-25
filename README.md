@@ -1,4 +1,4 @@
-# Cyclistic Bike-share
+# Cyclistic Bike-Share Analysis using Excel and Power Query
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -27,20 +27,20 @@ In this project, customers who purchase Single Ride Passes or Full Day Passes ar
 This project analyses Cyclistic bike-share data using Excel Pivot Tables and Power Query. The goal is to understand how casual riders and annual members use the service differently and provide actionable insights to increase annual memberships.
 
 ### Data Overview:
-- Source: Data was provided by a real company for educational, research, and analysis purposes.
-- Period: May 2023 to April 2024.
-- Volume: 5.7 million rows of data.
-- Format : .csv
+- **Source:** Data was provided by a real company for educational, research, and analysis purposes.
+- **Period:** May 2023 to April 2024.
+- **Volume:** 5.7 million rows of data.
+- **Format:** .csv
 
 ### Project Objectives:
-- Understand usage patterns of casual riders vs. annual members.
-- Identify high-level trends in ride behavior (e.g., duration, day/time, bike type).
-- Provide marketing strategies to convert casual riders into annual members.
+- Understand how annual members and casual riders use Cyclistic bikes differently.
+- Identify key insights to drive marketing strategies for converting casual riders.
+- Provide actionable recommendations for improving ridership and revenue.
 
 ### Tools Used:
-- Power Query : For cleaning, transforming and consolidating raw data.
-- Excel Pivot Tables : For creating summaries and charts.
-- Excel Charts : For visualizing insights (e.g., bike type usage, average ride duration).
+- **Power Query** : Used for cleaning, transforming, and consolidating raw data.
+- **Excel Pivot Tables** : Used for summarizing and analyzing key insights from the dataset.
+- **Excel Charts** : For visualizing insights (e.g., bike type usage, average ride duration).
 
 ### Data Cleaning and Preparation
 In the initial data preparation phase, we performed the following task:
@@ -55,11 +55,9 @@ EDA involves exploring the data to answer the key questions such as,
 - Provide actionable recommendations for improving ridership and revenue.
 
 ### Project Structure
-- data/: Contains a sample cleaned dataset for demonstration purposes and data_dictionary.md file explains the dataset structure and columns.
-- visuals/: Includes charts created using Excel.
-- README.md: Provides project overview and instructions.
-- LICENSE: Contains licensing terms.
-
+- **data/:** Contains a sample cleaned dataset for demonstration purposes and data_dictionary.md file explains the dataset structure and columns.
+- **visuals/:** Includes charts created using Excel.
+- **README.md:** Provides project overview and instructions.
 
     
   **( To access the full dataset, download it from the following link:
@@ -69,20 +67,20 @@ EDA involves exploring the data to answer the key questions such as,
 
 ### Key Insights:
 The analysis key insights are summarised as follows : 
-1. Bike Type Usage:
+1. **Bike Type Usage:**
       
     - Casual riders prefer classic and electric bikes.
     - Members have balanced usage across all bike types.
       
       ![Bike Type Usage](visuals/bike_type_usage.png)
       
-3. Ride Duration:
+3. **Ride Duration:**
     - Casual riders take longer rides, especially on weekends.
     - Members tend to use bikes for shorter, consistent weekday rides.
 
       ![Average Ride Duration](visuals/weekly_avg_ride.png)
       
-4. Monthly Trends:
+4. **Monthly Trends:**
     - Summer months show peak usage for both casual riders and members.
       
       ![Monthly Trends](visuals/monthly_ride.png)
@@ -92,12 +90,20 @@ For more charts, visit the [`visuals/`](visuals/) folder.
 ### Recommendations:
 Base on the analysis, the following actions are recommended : 
 
-1. Collaborate with Local Influencers:
-    - Hire content creators to promote bike-share trips around Chicago.
-2. Launch Weekend Membership Plans:
-    - Offer short-term plans targeting casual riders.
-3. Marketing Campaigns for Summer:
-    - Promote annual memberships during peak usage months.
+1. **Targeted Marketing Campaigns:**
+    - Launch weekend and summer promotions tailored to casual riders.
+    - Highlight cost savings of annual memberships for frequent or long-duration riders.
+2. **Leverage Local Content Creators:**
+    - Collaborate with Chicago-based influencers and content creators to showcase bike-share trips around the city.
+    - Focus on promoting Cyclistic as a fun, eco-friendly, and affordable way to explore Chicago.
+    - Use user-generated content to improve Cyclistic’s brand image and attract younger, tech-savvy audiences.
+3. **Flexible Membership Options:**
+    - Introduce shorter-term memberships, such as monthly or weekend-only plans, to cater to hesitant casual riders.
+    - Offer family packages or group discounts to broaden appeal.
+4. **Enhance Customer Engagement:**
+    - Launch a loyalty program for both casual and annual riders to reward frequent use.
+    - Gather customer feedback through surveys and use it to improve services.
+
 
 ### Data Limitations
 - Purpose of the ride is not available.
