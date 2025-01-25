@@ -52,10 +52,17 @@ EDA involves exploring the data to answer the key questions such as,
 - Provide actionable recommendations for improving ridership and revenue.
 
 ### Project Structure
-- data/: Contains a sample cleaned dataset for demonstration purposes and **data_dictionary.md** file explains the structure and meaning of the dataset’s columns.
+- data/: Contains a sample cleaned dataset for demonstration purposes and data_dictionary.md file explains the dataset structure and columns.
 - visuals/: Includes charts created using Excel.
 - README.md: Provides project overview and instructions.
 - LICENSE: Contains licensing terms.
+
+
+    
+  **( To access the full dataset, download it from the following link:
+          [Download Full Dataset from Google Drive](https://drive.google.com/drive/folders/1pDlVomP16qkL_pa7kGGE6aRn0noNl-qJ?usp=sharing) )**
+  
+
 
 ### Key Insights:
 The analysis key insights are summarised as follows : 
