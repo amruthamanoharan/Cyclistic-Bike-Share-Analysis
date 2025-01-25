@@ -83,3 +83,10 @@ Base on the analysis, the following actions are recommended :
     - Explore demographic data collection for better user targeting.
 
 
+### How to Use
+- Data Cleaning: Open cleaned_data.xlsx to view the prepared dataset, processed using Power Query.
+- Analysis: Explore pivot tables and charts in pivot_table_analysis.xlsx to review key insights.
+- Visualizations: View .png files in the visuals/ directory for each chart.
+
+### License:
+This project is licensed under the MIT License.
