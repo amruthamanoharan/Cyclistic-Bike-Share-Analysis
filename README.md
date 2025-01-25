@@ -7,9 +7,12 @@
 - [Tools Used](#tools-used)
 - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Project Structure](#project-structure)
 - [Key Insights](#key-insights)
 - [Recommendations](#recommendations)
 - [Data Limitations](#data-limitations)
+- [How to Use](#how-to-use)
+- [License](#license)
 
 ### Project Overview
 Cyclistic is a fictional Chicago-based bike-share company launched in 2016. Operates 5,800 geo-tracked cycles with 692 stations across Chicago.
@@ -108,9 +111,15 @@ Base on the analysis, the following actions are recommended :
 
 
 ### How to Use
-- Data Cleaning: Download Full Dataset from Google Drive to view the prepared dataset, processed using Power Query. 
-- Analysis: Explore pivot tables and charts in downloaded `analysed_data.xlsx` to review key insights.
-- Visualizations: View `.png` files in the `visuals/` directory for each chart.
+1. **Data Cleaning:**
+   - Download the Full Dataset from Google Drive to access the complete data processed using Power Query.
+   - The cleaned dataset includes all necessary transformations, such as null handling, date parsing, and calculated fields (e.g., ride duration).
+2. **Analysis:**
+   - Open `analysed_data.xlsx` (downloaded from Google Drive) to explore the analysis.
+   - This file contains Pivot tables summarizing key insights and Embedded charts for visualizing these insights
+3. **Visualizations:**
+   - For a quick overview, view `.png` files in the `visuals/` folder within the repository.
+   - Each chart highlights a specific aspect of the analysis.
 
 ### License:
 This project is licensed under the MIT License.
