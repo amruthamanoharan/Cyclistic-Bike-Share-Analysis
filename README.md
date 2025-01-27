@@ -12,7 +12,6 @@
 - [Recommendations](#recommendations)
 - [Data Limitations](#data-limitations)
 - [How to Use](#how-to-use)
-- [License](#license)
 
 ### Project Overview
 Cyclistic is a fictional Chicago-based bike-share company launched in 2016. Operates 5,800 geo-tracked cycles with 692 stations across Chicago.
@@ -126,8 +125,5 @@ Base on the analysis, the following actions are recommended :
 3. **Visualizations:**
    - For a quick overview, view `.png` files in the `visuals/` folder within the repository.
    - Each chart highlights a specific aspect of the analysis.
-
-### License:
-This project is licensed under the MIT License.
 
 
